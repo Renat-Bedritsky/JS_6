@@ -73,11 +73,11 @@ document.write(str7.match(/ab+a/g));
 
 document.write('<br><br>--- Задание 8: Проверить номер телефона --- <br>');
 
-/* let phone8 = prompt('Введите номер в фомате: +(код страны) (код города) (xx-xx-xx)');
+let phone8 = prompt('Введите номер в фомате: +(код страны) (код города) (xx-xx-xx)');
 document.write(`Вы ввели: ${phone8} <br>`);
 let regexp8 = /[+]{1}[0-9]{1,3}[ ]{0,1}[0-9]{1,3}[ ]{0,1}[0-9]{2,3}-[0-9]{2,3}-[0-9]{2,3}/;
 
-document.write(regexp8.test(phone8)); */
+document.write(regexp8.test(phone8));
 
 // Задание 9
 
