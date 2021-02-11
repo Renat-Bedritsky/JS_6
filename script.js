@@ -79,7 +79,7 @@ let regexp8 = /[+]{1}[0-9]{1,3}[ ]{0,1}[0-9]{1,3}[ ]{0,1}[0-9]{2,3}-[0-9]{2,3}-[
 
 document.write(regexp8.test(phone8));
 
-// Задание 9
+// Задание 9   не закончено
 
 document.write('<br><br>--- Задание 9: Проверить email --- <br>');
 
@@ -88,8 +88,3 @@ let email9 = 'V.diesel@mail.com';
 let regexp9 = /[a-z]{1}[a-z0-9]{1,15}@[a-z]{2,10}.[a-z]{2,11}/gi;
 
 document.write(regexp9.test(email9));
-
-
-let email91 = 'aa';
-let regexp91 = /[a-z]{1}/;
-console.log(regexp91.test(email91));
